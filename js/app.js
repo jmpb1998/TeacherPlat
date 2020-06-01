@@ -35,7 +35,7 @@ app.get('/getLeaderboard', (req,res)=>{
 });
 
 // Post new user or login check 
-app.post('/loginCheck', (req, res) => {
+app.post('/TeacherPlat/loginCheck', (req, res) => {
     console.log("Login");
     return res.redirect('/TeacherPlat/mainForm.html');
 })
